@@ -14,7 +14,9 @@ connectDB();
 
 
 // Middleware
-app.use(cors());
+app.use(cors({
+   origin:"https:// mernstack-4q6f.vercel.app"
+}));
 app.use(express.json());
 
 // Routes
