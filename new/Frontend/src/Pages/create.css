@@ -1,0 +1,69 @@
+/* Sidebar styling */
+.ant-layout-sider {
+    background: linear-gradient(to bottom, #3a3a3a, #161b76); /* Gradient from dark to purple */
+    color: white;
+    box-shadow: 4px 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  }
+  
+  .ant-layout-sider .logo h3 {
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 10px;
+  }
+  
+  .ant-menu-item {
+    color: white;
+    font-weight: bold;
+  }
+  
+  .ant-menu-item:hover {
+    background-color: blue; /* Purple hover effect */
+  }
+  
+  .ant-menu-item-selected {
+    background-color: black !important; /* Highlight selected item */
+  }
+  
+  .ant-menu-item-icon {
+    color: white;
+  }
+  
+  .ant-layout-content {
+    background-color: #fff; /* Keep the content white */
+  }
+  
+  /* Adjust button styles */
+  .ant-btn-primary {
+    background-color: #1b269a;
+    border-color: black;
+  }
+  
+  .ant-btn-primary:hover {
+    background-color: #080d6a;
+    border-color: #520c78;
+  }
+  
+  /* Task Form Styling */
+  .ant-form {
+    border: 1px solid blue;
+    border-radius: 10px;
+    padding: 1rem;
+    background-color: #f9f9f9;
+  }
+  
+  /* Table Styling */
+  .ant-table {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .ant-table-tbody > tr > td {
+    color: #333;
+  }
+  
+  .ant-tag {
+    font-weight: bold;
+  }
+  
